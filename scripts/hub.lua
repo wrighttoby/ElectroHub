@@ -40,7 +40,7 @@ local VER = Instance.new("TextLabel")
 --Properties:
 
 Scripts.Name = "Scripts"
-Scripts.Parent = game.StarterGui.ElectroHax.MainFrame
+Scripts.Parent = game.CoreGui.ElectroHax.MainFrame
 Scripts.Active = true
 Scripts.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
 Scripts.BorderSizePixel = 0
