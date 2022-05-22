@@ -244,7 +244,6 @@ TXT5.Text = "EXAMPLE"
 TXT5.TextColor3 = Color3.fromRGB(255, 204, 0)
 TXT5.TextScaled = true
 TXT5.TextSize = 14.000
-TXT5.TextWrapped = true
 
 TXT6.Name = "TXT6"
 TXT6.Parent = Scripts
