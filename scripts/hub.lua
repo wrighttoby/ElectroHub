@@ -440,108 +440,94 @@ VER.TextScaled = true
 VER.TextSize = 14.000
 VER.TextWrapped = true
 
--- Scripts:
 
-local function YJHPKTY_fake_script() -- Scripts.Scripts 
-	local script = Instance.new('LocalScript', Scripts)
-
-	script.Parent = game.CoreGui.ElectroHax.MainFrame
+script.Parent = game.CoreGui.ElectroHax.MainFrame
 	
-	--[[
-	#####################################################################
-	#####################################################################
-	#####################################################################
-	--]]
+--[[
+#####################################################################
+#####################################################################
+#####################################################################
+--]]
 	
 	
 	
-	--Scripts Here
-	--If You Know How To Code Then You Can Remix Your Own Version And Make Your Own Version
-	--NOTE: YOU CANNOT MAKE IT PUBLIC WITHOUT UPLOADING A COPY TO THE DISCORD SERVER
-	--NOTE: DO NOT CHANGE THE DISCORD LINK AT ANY COST
+--Scripts Here
+--If You Know How To Code Then You Can Remix Your Own Version And Make Your Own Version
+--NOTE: YOU CANNOT MAKE IT PUBLIC WITHOUT UPLOADING A COPY TO THE DISCORD SERVER
+--NOTE: DO NOT CHANGE THE DISCORD LINK AT ANY COST
 	
-	--What Should The Text Of The Buttons say?
+--What Should The Text Of The Buttons say?
 	
-	script.Parent.TXT2.Text = "SPTS GodMode"
-	script.Parent.TXT3.Text = "Black Hub SPTS"
-	script.Parent.TXT4.Text = "Dex Explorer"
-	script.Parent.TXT5.Text = ""
-	script.Parent.TXT6.Text = ""
-	script.Parent.TXT7.Text = ""
-	script.Parent.TXT8.Text = ""
-	script.Parent.TXT9.Text = ""
-	script.Parent.TXT10.Text = ""
-	script.Parent.TXT11.Text = ""
-	script.Parent.TXT12.Text = ""
-	script.Parent.TXT13.Text = ""
-	script.Parent.TXT14.Text = ""
-	script.Parent.TXT15.Text = ""
-	script.Parent.TXT16.Text = ""
-	script.Parent.TXT17.Text = ""
-	script.Parent.TXT18.Text = ""
+TXT2.Text = "SPTS GodMode"
+TXT3.Text = "Black Hub SPTS"
+TXT4.Text = "Dex Explorer"
+TXT5.Text = ""
+TXT6.Text = ""
+TXT7.Text = ""
+TXT8.Text = ""
+TXT9.Text = ""
+TXT10.Text = ""
+TXT11.Text = ""
+TXT12.Text = ""
+TXT13.Text = ""
+TXT14.Text = ""
+TXT15.Text = ""
+TXT16.Text = ""
+TXT17.Text = ""
+TXT18.Text = ""
 	
 	--What Does The Button do?
-	script.Parent.UI1.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/1ArcX/Scripts/main/God%20Mode", true))()
-	end)
-	script.Parent.UI2.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
-	end)
-	script.Parent.UI3.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/Dex-V3", true))()
-	end)
-	script.Parent.UI4.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI5.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI6.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI7.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI8.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI9.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI10.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI11.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI12.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI13.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI14.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI15.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI16.MouseButton1Click:Connect(function()
-		
-	end)
-	script.Parent.UI17.MouseButton1Click:Connect(function()
-		
-	end)
+UI1.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/1ArcX/Scripts/main/God%20Mode", true))()
+end)
+UI2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
+end)
+UI3.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/Dex-V3", true))()
+end)
+UI4.MouseButton1Click:Connect(function()
 	
+end)
+UI5.MouseButton1Click:Connect(function()
 	
+end)
+UI6.MouseButton1Click:Connect(function()
 	
-	--[[
-	#####################################################################
-	#####################################################################
-	#####################################################################
-	--]]
-end
-coroutine.wrap(YJHPKTY_fake_script)()
+end)
+UI7.MouseButton1Click:Connect(function()
+	
+end)
+UI8.MouseButton1Click:Connect(function()
+	
+end)
+UI9.MouseButton1Click:Connect(function()
+	
+end)
+UI10.MouseButton1Click:Connect(function()
+	
+end)
+UI11.MouseButton1Click:Connect(function()
+	
+end)
+UI12.MouseButton1Click:Connect(function()
+	
+end)
+UI13.MouseButton1Click:Connect(function()
+	
+end)
+UI14.MouseButton1Click:Connect(function()
+	
+end)
+UI15.MouseButton1Click:Connect(function()
+		
+end)
+UI16.MouseButton1Click:Connect(function()
+	
+end)
+UI17.MouseButton1Click:Connect(function()
+	
+end)
 
 
 
