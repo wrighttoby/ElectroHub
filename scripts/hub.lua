@@ -463,9 +463,9 @@ local function YJHPKTY_fake_script() -- Scripts.Scripts
 	
 	--What Should The Text Of The Buttons say?
 	
-	script.Parent.TXT2.Text = ""
-	script.Parent.TXT3.Text = ""
-	script.Parent.TXT4.Text = ""
+	script.Parent.TXT2.Text = "SPTS GodMode"
+	script.Parent.TXT3.Text = "Black Hub SPTS"
+	script.Parent.TXT4.Text = "Dex Explorer"
 	script.Parent.TXT5.Text = ""
 	script.Parent.TXT6.Text = ""
 	script.Parent.TXT7.Text = ""
@@ -483,13 +483,13 @@ local function YJHPKTY_fake_script() -- Scripts.Scripts
 	
 	--What Does The Button do?
 	script.Parent.UI1.MouseButton1Click:Connect(function()
-		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/1ArcX/Scripts/main/God%20Mode", true))()
 	end)
 	script.Parent.UI2.MouseButton1Click:Connect(function()
-		
+		loadstring(game:HttpGet('https://pastebin.com/raw/D9btNZUr', true))()
 	end)
 	script.Parent.UI3.MouseButton1Click:Connect(function()
-		
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/Dex-V3", true))()
 	end)
 	script.Parent.UI4.MouseButton1Click:Connect(function()
 		
