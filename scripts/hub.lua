@@ -483,7 +483,7 @@ local function YJHPKTY_fake_script() -- Scripts.Scripts
 	
 	--What Does The Button do?
 	script.Parent.UI1.MouseButton1Click:Connect(function()
-		print("")
+		
 	end)
 	script.Parent.UI2.MouseButton1Click:Connect(function()
 		
