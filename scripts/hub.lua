@@ -461,7 +461,7 @@ script.Parent = game.CoreGui.ElectroHax.MainFrame
 TXT2.Text = "SPTS GodMode"
 TXT3.Text = "Black Hub SPTS"
 TXT4.Text = "Dex Explorer"
-TXT5.Text = ""
+TXT5.Text = "Snyxis SPTS"
 TXT6.Text = ""
 TXT7.Text = ""
 TXT8.Text = ""
@@ -487,7 +487,7 @@ UI3.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Neon-Fox/roblox-scripts/main/Dex-V3", true))()
 end)
 UI4.MouseButton1Click:Connect(function()
-	
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Snyxis/SXhub2/main/Sxhubb', true))()
 end)
 UI5.MouseButton1Click:Connect(function()
 	
